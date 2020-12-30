@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "esnext",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "composite": true,
+    "esModuleInterop": true,
+    "importHelpers": true,                 /* Import emit helpers from 'tslib'. */
+    "isolatedModules": true,
+
+    /* Strict Type-Checking Options */
+    "strict": true,
+    "strictBindCallApply": true,
+
+    /* jsx */
+    "jsx": "react",
+    "jsxFactory": "h",
+
+    /* Additional Checks */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noFallthroughCasesInSwitch": true,    /* Report errors for fallthrough cases in switch statement. */
+
+    /* Module Resolution Options */
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    // "preserveSymlinks": true,              /* Do not resolve the real path of symlinks. */
+
+    /* Advanced Options */
+    "forceConsistentCasingInFileNames": true, /* Disallow inconsistently-cased references to the same file. */
+
+    /* 实验支持  */
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    /* 拓展 */
+    "lib": [
+      "dom",
+      "ES2019.array",
+      "ES2020.Symbol.WellKnown"
+    ],
+
+    /* Cli Options */
+    "pretty": true,
+    "noEmitOnError": true
+  },
+  "exclude": ["*.stories.[tj]x?"]
+}
